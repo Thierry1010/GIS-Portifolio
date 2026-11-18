@@ -230,13 +230,15 @@ header {
     box-shadow: 0 12px 25px rgba(0,0,0,0.10);
 }
 
-.project-image {
-    height: 160px;
-    background: linear-gradient(
-        135deg,
-        #174D3A,
-        #77A98A
-    );
+
+.project-card img {
+    width: 100%;
+    height: 190px;
+    object-fit: contain;
+    background: #F4F8F5;
+    display: block;
+}
+
     display: flex;
     justify-content: center;
     align-items: center;
